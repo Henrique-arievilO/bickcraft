@@ -93,5 +93,11 @@ a {
     .headerMenu a{
         background: var(--c11);
         padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+    .header{
+        flex-direction: column;
     }
 }

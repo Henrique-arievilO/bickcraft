@@ -1,7 +1,7 @@
 .introBg{
-    background-color: var(--c12);
-    color: var(--w);
-    box-shadow: inset 0 -120px var(--w);
+    background-color: var(--color12);
+    color: var(--color00);
+    box-shadow: inset 0 -120px var(--color00);
 }
 .intro{
     max-width: 1200px;
@@ -23,44 +23,24 @@
 }
 .intro h1{
     margin-bottom: 32px;
-    font-size: 4rem;
-    line-height: 1.125;
-    font-family: var(--ff01);
-    font-weight: 600;
-}
-.intro h1 span{
-    color: var(--primary01);
 }
 .intro p{
     margin-bottom: 20px;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    color: var(--c05);
-    font-family: var(--ff02);
-    font-weight: 400;
+    color: var(--color05);
 }
 
 /* Media Queries */
-@media (max-width: 1200px) {
-    .intro h1{
-        font-size: 3rem;
-    }
-    .intro p{
-        font-size: 1.125rem;
-    }
-}
 @media (max-width: 800px) {
     .introBg{
-        background: var(--c11);
+        background: var(--color11);
         padding-top: 40px;
-        box-shadow: inset 0 -60px var(--w);
+        box-shadow: inset 0 -60px var(--color00);
     }
     .intro{
         grid-template-columns: 1fr;
         gap: 32px;
     }
     .intro h1{
-        font-size: 2rem;
         margin-bottom: 16px;
     }
     .introContent{

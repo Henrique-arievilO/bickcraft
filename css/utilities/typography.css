@@ -1,0 +1,94 @@
+/* Font 1 */
+.font1-XXL{
+    font-family: var(--ff01);
+    font-size: 4rem;
+    line-height: 1.125;
+    font-weight: 600;
+}
+.font1-XL{
+    font-family: var(--ff01);
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 600;
+}
+.font1-L{
+    font-family: var(--ff01);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.font1-M{
+    font-family: var(--ff01);
+    font-size: 1.125rem;
+    line-height: 1.33;
+    font-weight: 400;
+}
+.font1-M2{
+    font-family: var(--ff01);
+    font-size: 1.125rem;
+    line-height: 1.33;
+    font-weight: 600;
+}
+.font1-S{
+    font-family: var(--ff01);
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 400;
+}
+.font1-XS{
+    font-family: var(--ff01);
+    font-size: 0.75rem;
+    line-height: 1.43;
+    font-weight: 600;
+}
+/* Font 2 */
+.font2-L{
+    font-family: var(--ff02);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.font2-L2{
+    font-family: var(--ff02);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.font2-M{
+    font-family: var(--ff02);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.font2-S{
+    font-family: var(--ff02);
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 400;
+}
+.font2-XS{
+    font-family: var(--ff02);
+    font-size: 0.875rem;
+    line-height: 1.43;
+    font-weight: 400;
+}
+
+
+@media (max-width: 1200px) {
+    .font1-XXL{
+        font-size: 3rem;
+    }
+    .font2-M{
+        font-size: 1.125rem;
+    }
+}
+@media (max-width: 800px) {
+    .font1-XXL{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 600px) {
+    .font2-M{
+        font-size: .875rem;
+    }
+}

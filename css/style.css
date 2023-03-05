@@ -15,4 +15,8 @@
 @import url(./bikes/listBikes.css);
 @import url(./home/techs.css);
 
+/* Section */
+@import url(./home/partners.css);
+@import url(./home/depositions.css);
+
 /* Footer */

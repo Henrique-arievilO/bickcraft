@@ -28,7 +28,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 1000px;
 }
-h1, h2, h3, h4, ul, p{
+h1, h2, h3, h4, ul, p, blockquote{
     margin: 0;
 }
 ul{
@@ -84,4 +84,19 @@ img[src$=".jpg"] {
 }
 .color12{
     color: var(--color12);
+}
+.primaryColor01{
+    color: var(--primary01);
+}
+.primaryColor02{
+    color: var(--primary02);
+}
+.primaryColor03{
+    color: var(--primary03);
+}
+.primaryColor04{
+    color: var(--primary04);
+}
+.primaryColor05{
+    color: var(--primary05);
 }

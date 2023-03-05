@@ -28,7 +28,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 1000px;
 }
-h1, ul, p{
+h1, h2, h3, h4, ul, p{
     margin: 0;
 }
 ul{
@@ -42,4 +42,46 @@ a {
 img{
     max-width: 100%;
     display: block;
+}
+img[src$=".jpg"] {
+    border-radius: 4px;
+}
+.color00{
+    color: var(--color00);
+}
+.color01{
+    color: var(--color01);
+}
+.color02{
+    color: var(--color02);
+}
+.color03{
+    color: var(--color03);
+}
+.color04{
+    color: var(--color04);
+}
+.color05{
+    color: var(--color05);
+}
+.color06{
+    color: var(--color06);
+}
+.color07{
+    color: var(--color07);
+}
+.color08{
+    color: var(--color08);
+}
+.color09{
+    color: var(--color09);
+}
+.color10{
+    color: var(--color10);
+}
+.color11{
+    color: var(--color11);
+}
+.color12{
+    color: var(--color12);
 }

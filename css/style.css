@@ -8,15 +8,17 @@
 /* Header */
 @import url(./global/header.css);
 
-/* Main */
+/* Home */
 @import url(./home/intro.css);
-
-/* Article */
-@import url(./bikes/listBikes.css);
 @import url(./home/techs.css);
-
-/* Section */
 @import url(./home/partners.css);
 @import url(./home/depositions.css);
 
+/* Bikes */
+@import url(./bikes/listBikes.css);
+
+/* Insurance */
+@import url(./insurance/insurance.css);
+
 /* Footer */
+@import url(./global/footer.css);

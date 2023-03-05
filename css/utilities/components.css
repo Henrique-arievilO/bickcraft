@@ -37,6 +37,7 @@
     line-height: 1.33;
     font-family: var(--ff01);
     font-weight: 600;
+    max-width: max-content;
 }
 .btn:hover{
     background: linear-gradient(var(--primary02), var(--primary03));
@@ -47,4 +48,17 @@
         padding: 12px 16px;
         font-size: 1rem;
     }
+@media (max-width: 400px) {
+        .btn{
+            margin: 0 auto;
+        }
+    }
+}
+.secundadyBtn{
+    background: linear-gradient(var(--color10), var(--color09));
+    color: var(--color02);
+}
+.secundadyBtn:hover{
+    background: linear-gradient(var(--color09), var(--color08));
+    color: var(--color02);
 }

@@ -62,3 +62,23 @@
     background: linear-gradient(var(--color09), var(--color08));
     color: var(--color02);
 }
+.titleBg{
+    background: var(--color11);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.title p{
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px){
+    .titleBg{
+        padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    .title p{
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+}

@@ -15,6 +15,7 @@
 @import url(./home/depositions.css);
 
 /* Bikes */
+@import url(./bikes/bikes.css);
 @import url(./bikes/listBikes.css);
 
 /* Insurance */

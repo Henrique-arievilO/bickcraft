@@ -62,6 +62,22 @@
     background: linear-gradient(var(--color09), var(--color08));
     color: var(--color02);
 }
+.btn.arrow{
+    display: flex;
+    align-items: center;
+}
+.btn.arrow::after{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url(../../img/icones/seta.svg);
+    transition: all .3s;
+}
+.btn.arrow:hover::after{
+    transform: translateX(4px);
+}
 .titleBg{
     background: var(--color11);
     padding-top: 60px;

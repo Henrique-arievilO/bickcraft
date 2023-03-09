@@ -20,6 +20,8 @@
 
 /* Insurance */
 @import url(./insurance/insurance.css);
+@import url(./insurance/advantages.css);
+@import url(./insurance/faq.css);
 
 /* Footer */
 @import url(./global/footer.css);

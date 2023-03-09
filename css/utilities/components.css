@@ -54,11 +54,11 @@
         }
     }
 }
-.secundadyBtn{
+.secundaryBtn{
     background: linear-gradient(var(--color10), var(--color09));
     color: var(--color02);
 }
-.secundadyBtn:hover{
+.secundaryBtn:hover{
     background: linear-gradient(var(--color09), var(--color08));
     color: var(--color02);
 }

@@ -1,0 +1,30 @@
+.advantagesBg{
+    background: var(--color12);
+}
+.advantages{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.advantages h2{
+    margin-bottom: 60px;
+}
+.advantages ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+    /* auto-fit: coloca a quantidade de colunas máxima possível.
+    minmax: define os parâmetros maior e menor para a contenção do grid. */
+    gap: 40px 80px;
+}
+.advantages img, .advantages h3{
+    margin-bottom: 8px;
+}
+
+@media (max-width: 800px){
+    .advantages{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .advantages h2{
+        margin-bottom: 40px;
+    }
+}
